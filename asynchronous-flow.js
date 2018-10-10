@@ -1,4 +1,6 @@
 function doFarming() {
+	console.log('******* Asynchronous flow *******');
+
 	doSowing();
 	doWatering();
 	doHarvesting();

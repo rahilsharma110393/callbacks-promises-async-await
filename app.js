@@ -1,3 +1,3 @@
-const init = require('./asynchronous-flow');
+const init = require('./synchronous-flow');
 
 init.doFarming ();
