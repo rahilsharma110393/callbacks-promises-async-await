@@ -1,0 +1,23 @@
+{
+  "name": "callbacks-promises-async-await",
+  "version": "1.0.0",
+  "description": "A brief walkthrough about callbacks, promises and async/await",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santhor/callbacks-promises-async-await.git"
+  },
+  "author": "Santhosh R",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santhor/callbacks-promises-async-await/issues"
+  },
+  "homepage": "https://github.com/santhor/callbacks-promises-async-await#readme",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
