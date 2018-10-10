@@ -1,4 +1,6 @@
 function doFarming() {
+    console.log('******* Using Promises *******');
+    
     doSowing()
         .then((data) => {
             console.log(data.message);
@@ -14,8 +16,6 @@ function doFarming() {
         .catch((err) => {
             console.log("Oops!! There's some delay in harvesting");
         });
-
-    console.log('******* Using Promises *******');
 }
 
 function doSowing() {

@@ -1,6 +1,7 @@
 async function doFarming() {
-    let data;
     console.log('******* Using Async/Await *******');
+
+    let data;
 
     try {
         data = await doSowing();

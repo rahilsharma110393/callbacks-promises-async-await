@@ -1,4 +1,6 @@
 function doFarming() {
+	console.log('******* Using Callbacks *******');
+	
 	doSowing(data => {
         console.log(data.message);
 		doWatering(data => {
@@ -8,8 +10,6 @@ function doFarming() {
             });
 		});
 	});
-
-    console.log('******* Using Callbacks *******');
 }
 
 function doSowing(callback) {
